@@ -3,6 +3,10 @@ package jp.kaiz
 import kotlin.random.Random
 
 fun main() {
+    println("Who are you?")
+    val userName = readln()
+    println("Hello, $userName!")
+
     println("Tossing a coin...")
     val outcomes = mutableMapOf("Heads" to 0, "Tails" to 0)
 
