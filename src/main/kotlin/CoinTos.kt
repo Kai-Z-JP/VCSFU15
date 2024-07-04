@@ -19,8 +19,8 @@ fun main() {
     println("Heads: ${outcomes["Heads"]}, Tails: ${outcomes["Tails"]}")
 
     if (outcomes["Heads"]!! > outcomes["Tails"]!!) {
-        println("You won!")
+        println("$userName won!")
     } else {
-        println("You lost!")
+        println("$userName lost!")
     }
 }
